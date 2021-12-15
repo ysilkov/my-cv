@@ -1,0 +1,31 @@
+html {
+ 
+    -webkit-tap-highlight-color: transparent;
+    background-color: #dde3e9;
+   
+}
+   .main {
+    border: 1px solid none; padding: 0px 60px 10px 60px;
+    overflow: hidden;
+    background-color: white;
+    margin: 0 300px 0 300px;
+   }
+   .cv {
+       text-align: center;
+   }
+   .picture{
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: flex-start;
+   }
+   .fig {
+       width: 150px;
+       margin-left: 150px;
+   }
+   .myName {
+       text-align: left;
+   }
+   .city{
+font-size: 20px;
+   }
+  
