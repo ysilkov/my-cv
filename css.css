@@ -4,6 +4,7 @@ html {
     background-color: #dde3e9;
    
 }
+
    .main {
     border: 1px solid none; padding: 0px 60px 10px 60px;
     overflow: hidden;
@@ -12,12 +13,14 @@ html {
    }
    .cv {
        text-align: center;
+       padding-top: 10px;
    }
    .picture{
-display: grid;
-grid-template-columns: 1fr 1fr;
-align-items: flex-start;
+       display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: flex-start;
    }
+
    .fig {
        width: 150px;
        margin-left: 150px;
@@ -28,4 +31,67 @@ align-items: flex-start;
    .city{
 font-size: 20px;
    }
+   .skills-list {
+    margin: 0;
+    padding: 0;
+  }
   
+  .skills-list dt {
+    padding-left: 32px;
+    background-repeat: no-repeat;
+    background-position: start;
+  }
+   .skills-list dt {
+    padding-left: 32px;
+    background-repeat: no-repeat;
+    background-position: start;
+    
+   
+  }
+  
+  .skill-html {
+    background-image: url("img/icon-html.svg");
+  }
+  
+  .skill-css {
+    background-image: url("img/icon-css.svg");
+  }
+  .skill-js {
+    background-image: url("img/icon-js.png");
+    background-position: -10px;
+  }
+  .level {
+    margin: 4px 0 16px;
+    padding: 0 ;
+    height: 14px;
+    font-size: 14px;
+    text-align: center;
+    background-color: grey;
+    border: 1px solid #712073;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .level div {
+    margin: 1px;
+    height: 12px;
+    background-color: lightblue;
+    border-radius: 6px;
+  }
+  .page-header .container,
+.page-footer .container {
+  max-width: 1408px;
+  text-align: right;
+}
+
+.page-header a {
+  margin-left: 56px;
+  color: black;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.form-input { border: 2px solid grey; padding: 5px; }
+.form-input:focus { background: lightyellow; border-color: blue; outline: none; }
