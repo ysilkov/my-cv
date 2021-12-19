@@ -1,10 +1,7 @@
 html {
- 
     -webkit-tap-highlight-color: transparent;
-    background-color: #dde3e9;
-   
+    background-color: #dde3e9; 
 }
-
    .main {
     border: 1px solid none; padding: 0px 60px 10px 60px;
     overflow: hidden;
@@ -20,7 +17,6 @@ html {
       grid-template-columns: 1fr 1fr;
       align-items: flex-start;
    }
-
    .fig {
        width: 150px;
        margin-left: 150px;
@@ -29,13 +25,12 @@ html {
        text-align: left;
    }
    .city{
-font-size: 20px;
+     font-size: 20px;
    }
    .skills-list {
     margin: 0;
     padding: 0;
   }
-  
   .skills-list dt {
     padding-left: 32px;
     background-repeat: no-repeat;
@@ -45,14 +40,10 @@ font-size: 20px;
     padding-left: 32px;
     background-repeat: no-repeat;
     background-position: start;
-    
-   
   }
-  
   .skill-html {
     background-image: url("img/icon-html.svg");
   }
-  
   .skill-css {
     background-image: url("img/icon-css.svg");
   }
@@ -73,18 +64,17 @@ font-size: 20px;
     font-weight: bold;
   }
   
-  .level div {
+.level div {
     margin: 1px;
     height: 12px;
     background-color: lightblue;
     border-radius: 6px;
-  }
-  .page-header .container,
+}
+.page-header .container,
 .page-footer .container {
   max-width: 1408px;
   text-align: right;
 }
-
 .page-header a {
   margin-left: 56px;
   color: black;
@@ -93,9 +83,3 @@ font-size: 20px;
   background-position: left;
 }
 
-.form-input { border: 2px solid grey; padding: 5px; }
-.form-input:focus { background: lightyellow; border-color: blue; outline: none; }
-.form-name { border: 2px solid grey; padding: 5px; }
-.form-name:focus { background: lightyellow; border-color: blue; outline: none; }
-.form-phone { border: 2px solid grey; padding: 5px; }
-.form-phone:focus { background: lightyellow; border-color: blue; outline: none; }
