@@ -95,3 +95,7 @@ font-size: 20px;
 
 .form-input { border: 2px solid grey; padding: 5px; }
 .form-input:focus { background: lightyellow; border-color: blue; outline: none; }
+.form-name { border: 2px solid grey; padding: 5px; }
+.form-name:focus { background: lightyellow; border-color: blue; outline: none; }
+.form-phone { border: 2px solid grey; padding: 5px; }
+.form-phone:focus { background: lightyellow; border-color: blue; outline: none; }
